@@ -1,0 +1,25 @@
+{
+	"name": "vitest-9343",
+	"version": "0.0.0",
+	"description": "",
+	"type": "module",
+	"private": true,
+	"license": "MIT",
+	"scripts": {
+		"test": "vitest",
+		"test:ui": "vitest --ui",
+		"test:run": "vitest run"
+	},
+	"dependencies": {
+		"fs-extra": "^11.3.3"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^11.0.4",
+		"@vitest/ui": "latest",
+		"camelcase": "^9.0.0",
+		"globby": "^16.1.0",
+		"memfs": "^4.51.1",
+		"typescript": "^5.9.2",
+		"vitest": "latest"
+	}
+}
